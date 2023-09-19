@@ -29,5 +29,6 @@ func main() {
 	})
 
 	log.Println("listening on", port)
+	log.Printf("Added an extra line")
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
